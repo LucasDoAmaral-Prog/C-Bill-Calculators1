@@ -17,7 +17,9 @@ int main() {
 
     key = remember/50;
     remember = remember - (key*50);
+    
     printf("%d nota(s) de R$ 50,00\n", key);
+    
     key = remember/20;
     remember = remember - (key*20);
 
